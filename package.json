@@ -1,8 +1,8 @@
 {
-  "name": "𝐒𝐇𝐀𝐀𝐍-𝐊𝐇𝐀𝐍",
+  "name": "JEery-Ex",
   "version": "10.1.1",
-  "description": "𝐌𝐀𝐃𝐄 𝐁𝐘 𝐒𝐇𝐀𝐀𝐍 𝐊𝐇𝐀𝐍 🥀",
-  "main": "Shaan-Khan-K.js",
+  "description": "MADE BY JEery Ex 🥀",
+  "main": "Jerry-ex-k.js",
   "engines": {
       "node": "20.x",
       "npm": "10.0.0"
@@ -26,7 +26,7 @@
       "prince",
       "mental"
   ],
-  "author": "SHAAN-KHAN 🥀",
+  "author": "JERRY-EX 🥀",
   "license": "GPL-3.0",
   "bugs": {
       "url": "https://github.com/arif-11/arif-bot/issues"
