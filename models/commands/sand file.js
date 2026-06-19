@@ -2,7 +2,7 @@ module.exports.config = {
         name: 'sendfile',
         version: '1.0.0',
         hasPermssion: 2,
-        credits: '𝐒𝐡𝐚𝐚𝐧 𝐊𝐡𝐚𝐧',
+        credits: 'Jerry ex',
         description: '',
         commandCategory: 'Admin',
         usages: 'givefile',
