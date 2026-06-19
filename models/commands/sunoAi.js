@@ -65,7 +65,7 @@ module.exports.run = async function ({ api, event, args }) {
     const sonaReply = res.data || "😅 Mujhe samajh nahi aaya baby...";
 
     api.sendMessage(
-      `Hi ${userName} Shaan ❤️\n${sonaReply}`,
+      `Hi ${userName} jerry ❤️\n${sonaReply}`,
       threadID,
       messageID
     );
