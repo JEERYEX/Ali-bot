@@ -551,7 +551,7 @@ ${rand}
 
 𝑪𝒓𝒆𝒅𝒊𝒕𝒔:𒁍≛⃝𝙹𝚎𝚛𝚛𝚢 𝙴𝚡 ❥||ㅎ
 
-❖•S━━━━━💞━━━━━A•❖`
+❖•🌸━━━━━💞━━━━━🌸•❖`
   }
   return api.sendMessage(msg, threadID, messageID);
 };
