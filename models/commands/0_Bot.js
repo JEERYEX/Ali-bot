@@ -3,7 +3,7 @@ module.exports.config = {
   name: "goibot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "MR SHAAN",
+  credits: "MR JERRY",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -544,12 +544,12 @@ if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
   var msg = {
     body: `💞👉${name} 💞👈
 
-❖•S━━━━━💞━━━━━A•❖,
+❖•🌸━━━━━💞━━━━━🌸•❖,
 
 
 ${rand}                                        
 
-𝑪𝒓𝒆𝒅𝒊𝒕𝒔:𒁍≛⃝𝑺𝑯𝑨𝑨𝑵 𝑲𝑯𝑨𝑵 𝑲 ❥||ㅎ
+𝑪𝒓𝒆𝒅𝒊𝒕𝒔:𒁍≛⃝𝙹𝚎𝚛𝚛𝚢 𝙴𝚡 ❥||ㅎ
 
 ❖•S━━━━━💞━━━━━A•❖`
   }
