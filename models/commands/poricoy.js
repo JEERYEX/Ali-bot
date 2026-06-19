@@ -2,7 +2,7 @@ module.exports.config = {
   name: "pry",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAAN",
+  credits: "JERRY",
   description: "Simple Banglish Ai Chatbot",
   commandCategory: "Ai Robot",
   usages: "/meta [typeinBanglish]",
@@ -28,7 +28,7 @@ if (args.join() == "") {
 𝙸𝚍𝚎𝚗𝚝𝚒𝚝𝚢            : لَا إِلٰهَ إِلَّا الله مُحَمَّدٌ رَسُولُ الله‎ 
 𝙷𝚘𝚋𝚋𝚒𝚎𝚜               : 𝐍𝐚𝐦𝐚𝐳 𝟓 𝐭𝐢𝐦𝐞𝐬 𝐚 𝐝𝐚𝐲 
 𝙿𝚛𝚎𝚜𝚎𝚗𝚝 𝙰𝚍𝚍𝚛𝚎𝚜𝚜   : 𝐃𝐮𝐧𝐢𝐲𝐚 
-𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝 𝙰𝚍𝚍𝚛𝚎𝚜𝚜 : 𝐉𝐚𝐧𝐧𝐚𝐭 (𝐈𝐧 𝐬𝐡𝐚 𝐚𝐥𝐥𝐚𝐡) update of 👉༆SHAAN KHAN SK༄👈.`, event.threadID, event.messageID)}
+𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝 𝙰𝚍𝚍𝚛𝚎𝚜𝚜 : AP  (DIL) update of 👉༆JERRY EX༄👈.`, event.threadID, event.messageID)}
 
   else {
     let uint = encodeURI(args.join(' '));
