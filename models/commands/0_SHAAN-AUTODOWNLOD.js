@@ -3,7 +3,7 @@ module.exports = {
     name: "linkAutoDownload",
     version: "1.5.0",
     hasPermssion: 0,
-    credits: "Shaan Babu",
+    credits: "jerry Babu",
     description: "Downloads video and shows its original title.",
     commandCategory: "Utilities",
     usages: "",
@@ -53,7 +53,7 @@ module.exports = {
 
       return api.sendMessage(
         {
-          body: `✨❁ ━━ ━[ 𝐎𝐖𝐍𝐄𝐑 ]━ ━━ ❁✨\n\nᴛɪᴛʟᴇ: ${videoTitle}\n\n✨❁ ━━ ━[ 𝑺𝑯𝑨𝑨𝑵 ]━ ━━ ❁✨`,
+          body: `✨❁ ━━ ━[ 𝐎𝐖𝐍𝐄𝐑 ]━ ━━ ❁✨\n\nᴛɪᴛʟᴇ: ${videoTitle}\n\n✨❁ ━━ ━[ 𝙹𝚎𝚛𝚛𝚢 ]━ ━━ ❁✨`,
           attachment: fs.createReadStream(filePath),
         },
         event.threadID,
