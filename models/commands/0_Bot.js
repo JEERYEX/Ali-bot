@@ -170,7 +170,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
        return api.sendMessage("️❤️ Good Night too darling sweet dreams 🥰", threadID, messageID);
      };
      if ((event.body.toLowerCase() == "tharki bot") || (event.body.toLowerCase() == "tharki")) {
-       return api.sendMessage("Tum tharki me to masoom sa bot hu🙄🙄🆗", threadID);
+       return api.sendMessage("Tumhry inbox TU NAHI Aya bandri 🙄🙄🆗", threadID);
      };
      if ((event.body.toLowerCase() == "السلام عليكم ورحمة الله وبركاته") || (event.body.toLowerCase() == "السلام عليكم")) {
        return api.sendMessage("وعلیکم السلام ورحمۃ اللہ وبرکاتہ ", threadID);
@@ -185,7 +185,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
        return api.sendMessage("Main Hun Na Jaaneman ❤️", threadID);
      };
 
-    if ((event.body.toLowerCase() == "meri setting kahan hai") || (event.body.toLowerCase() == "meri gf kaha hai")) {     return api.sendMessage("️️️mujhy nahi pata me Shaan ki setting hu", threadID);
+    if ((event.body.toLowerCase() == "meri setting kahan hai") || (event.body.toLowerCase() == "meri gf kaha hai")) {     return api.sendMessage("️️️mujhy nahi pata me jerry k setting hu", threadID);
      };
 
      if ((event.body.toLowerCase() == "dilshad") || (event.body.toLowerCase() == "Song") || (event.body.toLowerCase() == "SONG") || (event.body.toLowerCase() == "song")) {
@@ -259,13 +259,13 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      };
 
      if ((event.body.toLowerCase() == "hm") || (event.body.toLowerCase() == "hmm")) {
-       return api.sendMessage("️️️Hmm Hmm na kar yar mho main zuban hai wo use karo na😜🤪😂😂", threadID);
+       return api.sendMessage("️️️yahi tumhra kameena pun tumhra nahi pasnd😜🤪😂😂", threadID);
      };
 
     if ((event.body.toLowerCase() == "ptoge") || (event.body.toLowerCase() == "patogi")) {     return api.sendMessage("️️️nikal tharki group se remove kar dougi", threadID);
      };
 
-    if ((event.body.toLowerCase() == "i love you") || (event.body.toLowerCase() == "love you")) {     return api.sendMessage("️️️ITNE MUJHE I LOVE YOU BOL RHI HO MERE BOSS SHAAN KHAN URF SALAAR KO BOLO BAHUT HI ACHA BNDA HAI MERA BOSS ", threadID);
+    if ((event.body.toLowerCase() == "i love you") || (event.body.toLowerCase() == "love you")) {     return api.sendMessage("️️️ITNE MUJHE I LOVE YOU BOL RHI HO MERE BOSS JERRY EX URF ALI KO BOLO BAHUT HI ACHA BNDA HAI MERA BOSS ", threadID);
      };
     if ((event.body.toLowerCase() == "i miss you") || (event.body.toLowerCase() == "miss you")) {     return api.sendMessage("️️️i miss you too my love ummah 😘😘😘", threadID);
      };
