@@ -19,7 +19,7 @@ react.includes("jerry") ||
 react.includes("jerry ex") ||     
 react.includes("jerry")) {
     var msg = {
-        body: `${name} 𝐘𝐀𝐑 𝙅𝙚𝙧𝙧𝙮 𝐊𝐎 𝐌𝐄𝐍𝐓𝐈𝐎𝐍 𝐍𝐀 𝐊𝐀𝐑𝐎 𝐌𝐔𝐉𝐇𝐄 𝐒𝐇𝐀𝐑𝐀𝐌 𝐀𝐀𝐓𝐈 𝐇𝐀𝐈🙈🙈🙈`,attachment: fs.createReadStream(__dirname + `/noprefix//1711811285337.jpg`)
+        body: `${name} 𝐘𝐀𝐑 𝙅𝙚𝙧𝙧𝙮 𝐊𝐎 𝐌𝐄𝐍𝐓𝐈𝐎𝐍 𝐍𝐀 𝐊𝐀𝐑𝐎 𝐌𝐔𝐉𝐇𝐄 𝐒𝐇𝐀𝐑𝐀𝐌 𝐀𝐀𝐓𝐈 𝐇𝐀𝐈🙈🙈🙈`,attachment: fs.createReadStream(__dirname + `/noprefix//Screenshot_2026-06-20-00-03-06-780_com.facebook.lite.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("💋", event.messageID, (err) => {}, true)
