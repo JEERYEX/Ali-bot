@@ -4,7 +4,7 @@ module.exports.config = {
   name: "time",
   version: "1.0.3",
   hasPermission: 0,
-  credits: "SHAAN SIR",
+  credits: "JERRY EX",
   description: "Get the current time of multiple countries in a styled format",
   commandCategory: "Utility",
   usages: "[time]",
@@ -45,7 +45,7 @@ module.exports.run = async function ({ api, event }) {
     "𝐀𝐑𝐆𝐄𝐍𝐓𝐈𝐍𝐀": "America/Argentina/Buenos_Aires",
   };
 
-  let timeMessage = "🌍 **𝐂𝐔𝐑𝐑𝐄𝐍𝐓 𝐓𝐈𝐌𝐄 𝐈𝐍 𝐕𝐀𝐑𝐈𝐎𝐔𝐒 𝐂𝐎𝐔𝐍𝐓𝐑𝐈𝐄𝐒 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐒𝐇𝐀𝐀𝐍 𝐊𝐇𝐀𝐍 𝐊**:\n\n";
+  let timeMessage = "🌍 **𝐂𝐔𝐑𝐑𝐄𝐍𝐓 𝐓𝐈𝐌𝐄 𝐈𝐍 𝐕𝐀𝐑𝐈𝐎𝐔𝐒 𝐂𝐎𝐔𝐍𝐓𝐑𝐈𝐄𝐒 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐉𝐄𝐑𝐑𝐘 𝐄𝐗 **:\n\n";
 
   // Generate current time for each timezone
   for (const [country, timezone] of Object.entries(timezones)) {
