@@ -2,7 +2,7 @@ module.exports.config = {
     name: "pairing",
     version: "1.0.2",
     hasPermssion: 0,
-    credits: "SHAAN KHAN",
+    credits: "JERRY EX",
     description: "Tag se ya random pairing photo",
     commandCategory: "Picture",
     cooldowns: 5,
@@ -98,7 +98,7 @@ module.exports.run = async function({ api, event, args }) {
 
     const imgPath = await makeImage({ one: senderID, two: mentorID });
     
-    const msg = `🌸===『*★𝐂𝐫𝐞𝐝𝐢𝐭'𝐬 𝐒𝐇𝐀𝐀𝐍𝐈*』===🌸\n\n💞 ${myName} is now paired with ${mentorName} 💘\n\n🧬 Gender: ${gender}\n📊 Pairing Score: ${randomScore}`;
+    const msg = `🌸===『*★𝐂𝐫𝐞𝐝𝐢𝐭'𝐣𝐞𝐫𝐫𝐲*』===🌸\n\n💞 ${myName} is now paired with ${mentorName} 💘\n\n🧬 Gender: ${gender}\n📊 Pairing Score: ${randomScore}`;
 
     return api.sendMessage({
         body: msg,
