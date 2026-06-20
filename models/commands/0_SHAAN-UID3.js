@@ -2,7 +2,7 @@ module.exports.config = {
   name: "uid3",
   version: "6.0.0",
   hasPermssion: 0,
-  credits: "SHAAN-KHAN",
+  credits: "JERRY-Ex",
   description: "Generate stylish Facebook info card with circular DP",
   commandCategory: "Tools",
   cooldowns: 5
