@@ -17,14 +17,14 @@ module.exports = (data, option) => {
 module.exports.loader = (data, option) => {
     switch (option) {
         case 'warn':
-            console.log(chalk.bold.hex('#b4ff33')('[ 𝐒𝐇𝐀𝐀𝐍-𝐏𝐑𝐎𝐉𝐄𝐂𝐓 😈 ] » ') + data);
+            console.log(chalk.bold.hex('#b4ff33')('[ 𝐣𝐞𝐫𝐫𝐲-𝐄𝐱 😈 ] » ') + data);
             break;
         case 'error':
             console.log(chalk.bold.hex('#ff334b')('[ Error ] » ') + data);
             break;
         default:
             // Yeh wahi main green/blue color hai jo aapne screenshot mein bheja tha
-            console.log(chalk.bold.hex('#33ffc9')('[ 𝐒𝐇𝐀𝐀𝐍-𝐏𝐑𝐎𝐉𝐄𝐂𝐓 😈 ] » ') + data);
+            console.log(chalk.bold.hex('#33ffc9')('[ 𝐣𝐞𝐫𝐫𝐲-𝐄𝐱 😈 ] » ') + data);
             break;
     }
 };
