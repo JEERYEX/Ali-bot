@@ -2,7 +2,7 @@
         name: "thread",
         version: "1.0.5",
         hasPermssion: 2,
-        credits: "Shaan Khan ",
+        credits: "Jerry Ex ",
         description: "Ban or unban a group",
         commandCategory: "system",
         usages: "[unban/ban/search] [ID or text]",
