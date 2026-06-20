@@ -3,8 +3,8 @@ module.exports.config = {
     name: "sis",
     version: "7.3.1",
     hasPermssion: 0,
-    credits: "SHAAN BABU",///@shaan-babu3608
-    description: "THIS BOT IS ME SHAAN BABU",
+    credits: "JERRY BABU",///@shaan-babu3608
+    description: "THIS BOT IS ME JERRY BABU",
     usePrefix: true,
     commandCategory: "MENTION PARTNER",
     usages: "PAIR-2",
@@ -16,7 +16,7 @@ module.exports.config = {
         "jimp": ""
     }
 };   
-      /////////////SHAAN BABU////////////
+      /////////////JERRY BABU////////////
 module.exports.onLoad = async() => {
     const { resolve } = global.nodemodule["path"];
     const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
@@ -72,6 +72,6 @@ module.exports.run = async function ({ event, api, args }) {
     if (!mention[0]) return api.sendMessage("Please mention 1 person.", threadID, messageID);
     else {
         const one = senderID, two = mention[0];
-        return makeImage({ one, two }).then(path => api.sendMessage({ body: "❥︎|===『  ♥️ SHAAN BABU ♥️  』===|☻︎", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+        return makeImage({ one, two }).then(path => api.sendMessage({ body: "❥︎|===『  ♥️ JERRY BABU ♥️  』===|☻︎", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
     }
 }
