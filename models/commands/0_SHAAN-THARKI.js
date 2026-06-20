@@ -3,7 +3,7 @@ module.exports.config = {
         name: "TharKi",
     version: "1.1.1",
         hasPermssion: 0,
-        credits: "SHAAN", 
+        credits: "JERRY", 
         description: "THIS BOT IS SHAAN",
         commandCategory: "no prefix",
     cooldowns: 5, 
