@@ -16,7 +16,7 @@ module.exports = {
         name: "4k",
         version: "1.0.0",
         hasPermssion: 0,
-        credits: "𝐒𝐇𝐀𝐀𝐍 𝐊𝐇𝐀𝐍",
+        credits: "𝐉𝐄𝐑𝐑𝐘 𝐄𝐱",
         description: "Enhance image quality using 4K AI",
         commandCategory: "Image",
         usages: "4k (reply image / image url)",
@@ -40,7 +40,7 @@ module.exports = {
             return api.sendMessage("❌ Photo reply karo ya image URL do", threadID, messageID);
         }
 
-        const waitMessage = await api.sendMessage("✫꯭🎸꯭≛⃝𝐒𝐇𝐀𝐀𝐍-𝐊𝐇𝐀𝐍⎯᪳⤹🌷⤸\x0a⏳ 4K image ban rahi hai…", threadID);
+        const waitMessage = await api.sendMessage("✫꯭🎸꯭≛⃝𝐉𝐄𝐑𝐑𝐘 𝐄𝐱⎯᪳⤹🌷⤸\x0a⏳ 4K image ban rahi hai…", threadID);
 
         try {
             const baseApi = await getBaseApi();
@@ -51,7 +51,7 @@ module.exports = {
             api.unsendMessage(waitMessage.messageID);
 
             return api.sendMessage({
-                body: "✫꯭🎸꯭≛⃝𝐒𝐇𝐀𝐀𝐍-𝐊𝐇𝐀𝐍⎯᪳⤹🌷⤸\x0a\x0a✅ Ye lo aapki 4K image 💖",
+                body: "✫꯭🎸꯭≛⃝𝐉𝐄𝐑𝐑𝐘 𝐄𝐱⎯᪳⤹🌷⤸\x0a\x0a✅ Ye lo aapki 4K image 💖",
                 attachment: response.data
             }, threadID, messageID);
 
