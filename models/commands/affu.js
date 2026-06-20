@@ -4,7 +4,7 @@ module.exports.config = {
   name: "affu",
   version: "3.8.0",
   hasPermssion: 0,
-  credits: "Shaan Khan",
+  credits: "Jerry Ex",
   description: "Dewani AI - Pakistani Naughty GF Style",
   commandCategory: "ai",
   usages: "reply to message",
@@ -40,7 +40,7 @@ module.exports.handleEvent = async function({ api, event }) {
 Rules: 
 1. Use Hinglish/Roman Urdu. 
 2. Tone: Flirty, caring, 1-2 lines only. 
-3. If user says "AI bolo", reply exactly: "Main Shaan Khan AI hoon 🙂❤️😌".
+3. If user says "AI bolo", reply exactly: "Main Jerry Ex AI hoon 🙂❤️😌".
 4. Use emojis.
 Chat History:
 ${historyText}`;
