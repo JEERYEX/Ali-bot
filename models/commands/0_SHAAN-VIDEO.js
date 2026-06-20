@@ -2,7 +2,7 @@ const axios = require("axios");
 const yts = require("yt-search");
 
 // 🔒 CREDIT LOCK SYSTEM (DO NOT REMOVE)
-const CREDIT = "Shaan Khan";
+const CREDIT = "Jerry Ex";
 if (module.exports?.config?.credits && module.exports.config.credits !== CREDIT) {
   throw new Error(
     "\n❌ CREDIT LOCK ACTIVATED!\nOnly Shaan Khan is allowed to edit this file.\n"
