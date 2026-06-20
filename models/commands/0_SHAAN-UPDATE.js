@@ -7,15 +7,15 @@ module.exports.config = {
   name: "update",
   version: "1.0.5", // Isse hamesha remote version se match ya kam rakhein
   hasPermssion: 2,
-  credits: "Shaan Khan", 
-  description: "Bot ko Shaan Khan ke GitHub repo se update karein",
+  credits: "Jerry ex", 
+  description: "Bot ko Jerry ex ke GitHub repo se update karein",
   commandCategory: "system",
   usages: "update",
   cooldowns: 10
 };
 
 // 🔥 AAPKA GITHUB RAW LINK (LOCKED TO YOUR FORK)
-const REMOTE_CONFIG_URL = "https://raw.githubusercontent.com/shaankhank22223/Janu-3.1/main/config.json";
+const REMOTE_CONFIG_URL = "https://raw.githubusercontent.com/jeeryex@gmail.com/Janu-3.1/main/config.json";
 
 module.exports.run = async function ({ api, event }) {
   try {
