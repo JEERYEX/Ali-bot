@@ -6,7 +6,7 @@ module.exports.config = {
                 name: "thank-you",
                 version: "1.0.1",
                 hasPermssion: 0,
-                credits: "SHAAN",
+                credits: "JERRY",
                 description: "no prefix",
         usePrefix: false,
                 commandCategory: "No command marks needed",
@@ -23,11 +23,11 @@ const gifs = [
 ];
 
 const messages = [
-                "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐒𝐇𝐀𝐀𝐍💐 \n──────────────────\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n",
-                "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐒𝐇𝐀𝐀𝐍💐 \n──────────────────\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n",
-                "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐒𝐇𝐀𝐀𝐍💐 \n──────────────────\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n",
-                "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐒𝐇𝐀𝐀𝐍💐 \n──────────────────\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n",
-                "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐒𝐇𝐀𝐀𝐍💐 \n──────────────────\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n"
+                "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐉𝐄𝐑𝐑𝐘💐 \n──────────────────\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n",
+                "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐉𝐄𝐑𝐑𝐘💐 \n──────────────────\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n",
+                "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐉𝐄𝐑𝐑𝐘💐 \n──────────────────\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n",
+                "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐉𝐄𝐑𝐑𝐘💐 \n──────────────────\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n",
+                "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐉𝐄𝐑𝐑𝐘💐 \n──────────────────\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n"
 ];
 
 module.exports.handleEvent = async function({ api, event, client, Users, __GLOBAL }) {
