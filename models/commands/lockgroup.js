@@ -6,7 +6,7 @@ module.exports.config = {
   name: "lockgroup",
   version: "1.0.0",
   hasPermssion: 1,
-  credits: "Shaan",
+  credits: "Jerry",
   description: "Lock group name and photo, and auto-reset on change",
   commandCategory: "group",
   usages: "[on/off]",
