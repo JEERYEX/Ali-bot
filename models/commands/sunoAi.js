@@ -4,7 +4,7 @@ module.exports.config = {
   name: "sona",
   version: "1.0.4",
   hasPermssion: 0,
-  credits: "Shaan",
+  credits: "Jerry",
   description: "A friendly and playful chatbot named Sona.",
   commandCategory: "fun",
   usages: ".sona [text] or reply to a message with .sona",
