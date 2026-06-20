@@ -7,7 +7,7 @@ module.exports.config = {
     name: "love",
     version: "7.3.1",
     hasPermssion: 0,
-    credits: "Shaan",
+    credits: "Jerry",
     description: "Successfully paired with someone",
     commandCategory: "Get Pair From Mention",
     usages: "[@mention]",
