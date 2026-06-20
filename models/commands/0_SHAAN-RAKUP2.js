@@ -1,8 +1,8 @@
 module.exports.config = {
-  name: "SHAAN-RANKUP-CARD",
+  name: "JERRY-RANKUP-CARD",
   version: "10.1.0-HD-WHITE",
   hasPermssion: 1,
-  credits: "SHAAN BABU",
+  credits: "JERRY BABU",
   description: "HD VIP Rankup Card (White Text)",
   commandCategory: "LEVEL UP",
   dependencies: {
