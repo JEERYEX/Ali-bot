@@ -523,7 +523,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      };
 
     if ((event.body.toLowerCase() == "i love you bot") || (event.body.toLowerCase() == "ilove you")) {
-       return api.sendMessage("Love You too meri jaann ummah 😘😘💋💋", threadID);
+       return api.sendMessage("Love you thoo meri jaann ummah 😘😘💋💋", threadID);
      };
 
      if ((event.body.toLowerCase() == "does the bot love me") || (event.body.toLowerCase() == "does the bot love me")) {
