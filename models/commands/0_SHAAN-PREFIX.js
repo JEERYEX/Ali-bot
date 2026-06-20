@@ -2,7 +2,7 @@ module.exports.config = {
   name: "prefix",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SHAAN BABU",
+  credits: "JERRY BABU",
   description: "Show bot prefix with date & time",
   commandCategory: "system",
   usages: "prefix",
@@ -55,7 +55,7 @@ module.exports.handleEvent = async ({ event, api }) => {
 ✰ DAY ➪ ${day}
 
 ༺══─────────══༻
-MADE BY ❤️‍🔥 SHAAN-KHAN-K 
+MADE BY ❤️‍🔥 JERRY.EX 
 `;
 
   return api.sendMessage(msg, threadID, messageID);
@@ -100,7 +100,7 @@ module.exports.run = async ({ event, api }) => {
 ✰ DAY ➪ ${day}
 
 ༺══─────────══༻
-MADE BY ❤️‍🔥 SHAAN-KHAN-K 
+MADE BY ❤️‍🔥 JERRY.EX 
 `;
 
   return api.sendMessage(msg, event.threadID);
