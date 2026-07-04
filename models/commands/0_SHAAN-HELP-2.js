@@ -1,9 +1,9 @@
-module.exports.config = {
+lovemodule.exports.config = {
   name: "help2",
   version: "1.0.2",
   hasPermssion: 0,
-  credits: "SHAAN BABU",
-  description: "THIS BOT IS MR SHAAN BABU",
+  credits: "Jerry BABU",
+  description: "THIS BOT IS MR jerry BABU",
   usePrefix: true,
   commandCategory: "BOT-ALL-COMMAND-NAME",
   usages: "HELP-2",
@@ -67,9 +67,9 @@ module.exports. run = function({ api, event, args, getText }) {
     for (let item of returnArray) msg += `🥀  [${++i}] → ${prefix}${item} ♥️ \n`;
 
 
-    const siu = `┏━━━━━┓\n    𝐒𝐇𝐀𝐀𝐍-𝐊𝐇𝐀𝐍-𝐊                   ✧═══•❁😛❁•═══✧\n┗━━━━━┛\n\n\n✧═══❁♥️𝐀𝐥𝐥 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 ♥️❁═══✧`;
+    const siu = `┏━━━━━┓\n    𝐉𝐞𝐫𝐫𝐲 𝐄𝐱                   ✧═══•❁😛❁•═══✧\n┗━━━━━┛\n\n\n✧═══❁♥️𝐀𝐥𝐥 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐋𝐈𝐒𝐓 ♥️❁═══✧`;
 
- const text = `PAGE 🥀  [ ${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)} ]\n\𝐎𝐔𝐑 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐊𝐄 𝐋𝐈𝐘𝐄  𝐌𝐄𝐍𝐔 𝐋𝐈𝐊𝐇𝐎 \𝐓𝐇𝐈𝐒 𝐁𝐎𝐓 𝐈𝐒 𝐌𝐀𝐃𝐄 𝐁𝐘𝐄  𝐒𝐇𝐀𝐀𝐍-𝐊𝐇𝐀𝐍=𝐊 🙂✌️\n\n\n\n🕊️ ═════ 💋𝐒𝐇𝐀𝐀𝐍-𝐊𝐇𝐀𝐍💋 ═════ 🕊️`;
+ const text = `PAGE 🥀  [ ${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)} ]\n\𝐎𝐔𝐑 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐊𝐄 𝐋𝐈𝐘𝐄  𝐌𝐄𝐍𝐔 𝐋𝐈𝐊𝐇𝐎 \𝐓𝐇𝐈𝐒 𝐁𝐎𝐓 𝐈𝐒 𝐌𝐀𝐃𝐄 𝐁𝐘𝐄  𝐉𝐞𝐫𝐫𝐲 𝐄𝐱- 🙂✌️\n\n\n\n🕊️ ═════ 💋𝐉𝐞𝐫𝐫𝐲 𝐄𝐱💋 ═════ 🕊️`;
 
     return api.sendMessage(siu + "\n\n" + msg  + text, threadID, async (error, info) => {
       if (autoUnsend) {
